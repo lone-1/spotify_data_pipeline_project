@@ -3,7 +3,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 
 #add your keys here
-client_credentials_manager = SpotifyClientCredentials(client_id="2821dba9f30745a29f4d2a2086e5aec3", client_secret="f7828f168f534b9ca2d8be2ef5672ded")
+client_credentials_manager = SpotifyClientCredentials(client_id="", client_secret="")
 
 sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
 playlist_link = "https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF"
